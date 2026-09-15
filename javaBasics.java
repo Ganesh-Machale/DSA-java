@@ -1,5 +1,8 @@
  public class javaBasics{
       public static void main(String[] args) {
-        System.out.print("Hello World!");
+        int a = 10;
+        int b = 12;
+           int c = a + b;
+            System.out.println(c);
       }
  }
