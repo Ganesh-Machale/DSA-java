@@ -2,9 +2,14 @@
 
  public class javaBasics{
       public static void main(String[] args) {
-      
-           int a = 10;
-            a += 10;
-           System.out.println(a);
+          Scanner sc = new Scanner (System.in);
+          System.out.println("Please Enter Your Age :");
+         int age = sc.nextInt() ;
+           if (age>=18){
+               System.out.println("You can Drive the Vehicel");
+           }
+           else{
+               System.out.println("You can't Drive the Vehicel");
+           }
       }
  }
