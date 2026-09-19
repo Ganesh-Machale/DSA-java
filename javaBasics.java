@@ -8,6 +8,9 @@
            if (age>=18){
                System.out.println("You can Drive the Vehicel");
            }
+           if(age>=30){
+            System.out.println("You are Adult Person");
+           }
            else{
                System.out.println("You can't Drive the Vehicel");
            }
