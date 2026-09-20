@@ -3,16 +3,14 @@
  public class javaBasics{
       public static void main(String[] args) {
           Scanner sc = new Scanner (System.in);
-          System.out.println("Please Enter Your Age :");
-         int age = sc.nextInt() ;
-           if (age>=18){
-               System.out.println("You can Drive the Vehicel");
-           }
-           if(age>=30){
-            System.out.println("You are Adult Person");
-           }
-           else{
-               System.out.println("You can't Drive the Vehicel");
-           }
+         int A=1 , B=3 , C=6;
+         if ((A>=B)&&(A>=C)){
+            System.out.println("largest is A");
+         }
+         else if(B>=C){
+            System.out.println("Largest is B");
+         }else{
+            System.out.println("Largest is C");
+         }
       }
  }
