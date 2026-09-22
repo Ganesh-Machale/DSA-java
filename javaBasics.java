@@ -4,7 +4,7 @@
       public static void main(String[] args) {
           Scanner sc = new Scanner (System.in);
           int i =0;
-         while (i<100) {
+         while (i<1000) {
            System.out.println("Googler ");
            i++;
          }
