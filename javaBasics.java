@@ -2,14 +2,13 @@
 
  public class javaBasics{
       public static void main(String[] args) {
-          Scanner sc = new Scanner (System.in);
-          System.out.println("Enter the number how many items you want that text:");
-          int i =1;
-          int n = sc.nextInt();
-         while (i<= n) {
-           System.out.println(i +" "+ "I Love Google");
-           i++;
+         int n =10899;
+         while(n>0){
+          int lastdigit = n%10;
+          System.out.print(lastdigit);
+           n = n/10; 
          }
+         System.out.println();
       }
 
  }
