@@ -3,12 +3,13 @@
  public class javaBasics{
       public static void main(String[] args) {
           Scanner sc = new Scanner (System.in);
-          int i =0;
-          int n = 10;
-         while (i<n) {
-           System.out.println("********");
+          System.out.println("Enter the number how many items you want that text:");
+          int i =1;
+          int n = sc.nextInt();
+         while (i<= n) {
+           System.out.println(i +" "+ "I Love Google");
            i++;
          }
-
       }
+
  }
