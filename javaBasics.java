@@ -8,7 +8,7 @@
           int Counter = 1 ;
           for(int i=1; i<=25;i++){
             if(i == n){
-               break;
+              continue;
             }
             System.out.println(i);
           }
